@@ -1,10 +1,14 @@
 # Ignore Gradle project-specific cache directory
 .gradle
+.vscode
 
 # Ignore Gradle build output directory
 build
 **/build/
 !src/**/build/
+bin
+**/bin/
+!src/**/bin/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -23,3 +27,6 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Ignore your connection properties (credentials)
+ccloud-java.properties
